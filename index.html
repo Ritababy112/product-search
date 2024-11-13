@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/script.js" async></script>
+    <title>Product Filter and Search</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- search input -->
+      <div class="search-bar">
+        <input
+          type="text"
+          name="searchbar"
+          id="searchInput"
+          placeholder="search for product..."
+        />
+      </div>
+      <div class="filter">
+        <h3>Filter by Category:</h3>
+        <select name="" id="categoryFilter">
+          <option value="all">All</option>
+          <option value="electronics">Electronics</option>
+          <option value="fashion">Fashion</option>
+          <option value="books">Books</option>
+        </select>
+      </div>
+      <!-- product list -->
+      <div class="product-list" id="productList">
+        <div class="product" data-category="electronics">
+          <h3>Laptop</h3>
+          <p>Category: Electronics</p>
+        </div>
+        <div class="product" data-category="fashion">
+          <h3>T-shirt</h3>
+          <p>Category: Fashion</p>
+        </div>
+        <div class="product" data-category="books">
+          <h3>Javascript Book</h3>
+          <p>Category: Books</p>
+        </div>
+        <div class="product" data-category="electronics">
+          <h3>Smart Phone</h3>
+          <p>Category: Electronics</p>
+        </div>
+        <div class="product" data-category="fashion">
+          <h3>Jacket</h3>
+          <p>Category: Fashion</p>
+        </div>
+        <div class="product" data-category="books">
+          <h3>PHP Book</h3>
+          <p>Category: Books</p>
+        </div>
+      </div>
+    </div>
+    
+  </body>
+</html>
